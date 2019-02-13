@@ -1,6 +1,16 @@
 
 
-
+.wrapper{display:grid;
+			grid-template-columns:repeat(auto-fill, minmax(400px,1fr));
+			grid-template-rows:1fr;
+			grid-gap: 10px;}
+			
+.ma{max-width:18rem;
+	max-width:18rem;}
+	
+#die{border:1px solid gray;
+	width:100%;
+	margin-top:10px;}
 
 .container-fluid{display:grid;
 	grid-template-columns:auto;
